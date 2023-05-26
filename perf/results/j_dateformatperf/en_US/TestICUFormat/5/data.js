@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685079313717,
+  "lastUpdate": 1685104464173,
   "repoUrl": "https://github.com/jalaj-microsoft/icu",
   "entries": {
     "Benchmark": [
@@ -2938,6 +2938,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUFormat",
             "value": 303.9953302497437,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "committer": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "distinct": true,
+          "id": "c294f6c6b4cf82be38e38e9f4536fd458f5f8ec6",
+          "message": "ICU-22389 missing jar files",
+          "timestamp": "2023-05-26T17:33:46+05:30",
+          "tree_id": "b1c677500825002880dbd8cc45d677f3d9c9e1c5",
+          "url": "https://github.com/jalaj-microsoft/icu/commit/c294f6c6b4cf82be38e38e9f4536fd458f5f8ec6"
+        },
+        "date": 1685104454305,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUFormat",
+            "value": 365.60670667053597,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
