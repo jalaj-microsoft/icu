@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685104679369,
+  "lastUpdate": 1685111074422,
   "repoUrl": "https://github.com/jalaj-microsoft/icu",
   "entries": {
     "Benchmark": [
@@ -2848,6 +2848,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICU_NFC_Orig_Text",
             "value": 2.6595660890917547,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "committer": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "distinct": true,
+          "id": "7082ca887858c63c6e5f459632e2cf55a5e7fd0f",
+          "message": "ICU-22389 Version number update",
+          "timestamp": "2023-05-26T19:20:03+05:30",
+          "tree_id": "b1c677500825002880dbd8cc45d677f3d9c9e1c5",
+          "url": "https://github.com/jalaj-microsoft/icu/commit/7082ca887858c63c6e5f459632e2cf55a5e7fd0f"
+        },
+        "date": 1685111066401,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 2.6810775967834637,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
