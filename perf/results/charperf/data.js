@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685074330533,
+  "lastUpdate": 1685075212847,
   "repoUrl": "https://github.com/jalaj-microsoft/icu",
   "entries": {
     "Benchmark": [
@@ -16288,6 +16288,96 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestIsWhiteSpace",
             "value": 6.2911,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "committer": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "distinct": true,
+          "id": "8dc0aa7bb85f8fbde54eb6ba987c1003eac80741",
+          "message": "version number update",
+          "timestamp": "2023-05-26T08:43:02+05:30",
+          "tree_id": "5e6d78a1d340212aa4f84b4c70adea5b2e15791c",
+          "url": "https://github.com/jalaj-microsoft/icu/commit/8dc0aa7bb85f8fbde54eb6ba987c1003eac80741"
+        },
+        "date": 1685075203022,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestIsAlpha",
+            "value": 5.4674,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIsUpper",
+            "value": 5.5635,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIsLower",
+            "value": 4.7897,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIsDigit",
+            "value": 5.3389,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIsSpace",
+            "value": 6.3152,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIsAlphaNumeric",
+            "value": 5.5549,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIsPrint",
+            "value": 4.7887,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIsControl",
+            "value": 4.7857,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestToLower",
+            "value": 6.6657,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestToUpper",
+            "value": 6.6483,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIsWhiteSpace",
+            "value": 6.0918,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
