@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685104465874,
+  "lastUpdate": 1685110813824,
   "repoUrl": "https://github.com/jalaj-microsoft/icu",
   "entries": {
     "Benchmark": [
@@ -2668,6 +2668,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUParse",
             "value": 178.33516106592592,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "committer": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "distinct": true,
+          "id": "7082ca887858c63c6e5f459632e2cf55a5e7fd0f",
+          "message": "ICU-22389 Version number update",
+          "timestamp": "2023-05-26T19:20:03+05:30",
+          "tree_id": "b1c677500825002880dbd8cc45d677f3d9c9e1c5",
+          "url": "https://github.com/jalaj-microsoft/icu/commit/7082ca887858c63c6e5f459632e2cf55a5e7fd0f"
+        },
+        "date": 1685110803090,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUParse",
+            "value": 236.02887959102426,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
