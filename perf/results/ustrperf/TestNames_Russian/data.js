@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685112327960,
+  "lastUpdate": 1685356625659,
   "repoUrl": "https://github.com/jalaj-microsoft/icu",
   "entries": {
     "Benchmark": [
@@ -17854,6 +17854,102 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestScan2",
             "value": 48.2975,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "pedberg@unicode.org",
+            "name": "Peter Edberg",
+            "username": "pedberg-icu"
+          },
+          "committer": {
+            "email": "42151464+pedberg-icu@users.noreply.github.com",
+            "name": "Peter Edberg",
+            "username": "pedberg-icu"
+          },
+          "distinct": true,
+          "id": "130bdd47480ee1bf4ac7edc5188c997e1058e481",
+          "message": "ICU-22357 Update gb18030 mappings for the -2022 version\n\n(cherry picked from commit 7f5d679a982cf8fc9308a01159a1ccb071c7b508)",
+          "timestamp": "2023-05-26T12:34:06-07:00",
+          "tree_id": "c058851e55b012b7fd4e0d029bc7a35bd6ff7ba7",
+          "url": "https://github.com/jalaj-microsoft/icu/commit/130bdd47480ee1bf4ac7edc5188c997e1058e481"
+        },
+        "date": 1685356615742,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCtor",
+            "value": 24.4943,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCtor1",
+            "value": 26.2279,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCtor2",
+            "value": 29.7113,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCtor3",
+            "value": 52.6436,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestAssign",
+            "value": 57.2246,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestAssign1",
+            "value": 41.5058,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestAssign2",
+            "value": 33.4713,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestGetch",
+            "value": 21.7871,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCatenate",
+            "value": 210.2915,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestScan",
+            "value": 31.1719,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestScan1",
+            "value": 56.2864,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestScan2",
+            "value": 50.6674,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
