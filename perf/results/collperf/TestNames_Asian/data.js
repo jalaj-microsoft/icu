@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685355601025,
+  "lastUpdate": 1685424943325,
   "repoUrl": "https://github.com/jalaj-microsoft/icu",
   "entries": {
     "Benchmark": [
@@ -9988,6 +9988,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestIcu_BinarySearch_usekey",
             "value": 2529580.5692,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "committer": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "distinct": true,
+          "id": "0beaa2b34f01b21abf2d62ff468fc7b0cabfb219",
+          "message": "ICU-22389 BRS73: Update version number to 73.2",
+          "timestamp": "2023-05-30T10:28:43+05:30",
+          "tree_id": "4c99ddb406a128aa9550b6b837c81ac941bcf134",
+          "url": "https://github.com/jalaj-microsoft/icu/commit/0beaa2b34f01b21abf2d62ff468fc7b0cabfb219"
+        },
+        "date": 1685424931233,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestIcu_KeyGen_null",
+            "value": 329.4078,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_qsort_strcoll_null",
+            "value": 13115827.9048,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_qsort_usekey",
+            "value": 2597614.0454,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_BinarySearch_strcoll_null",
+            "value": 14041577.7479,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_BinarySearch_usekey",
+            "value": 2957167.2267,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
