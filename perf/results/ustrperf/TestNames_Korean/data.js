@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685430156809,
+  "lastUpdate": 1685433110112,
   "repoUrl": "https://github.com/jalaj-microsoft/icu",
   "entries": {
     "Benchmark": [
@@ -18046,6 +18046,102 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestScan2",
             "value": 43.6395,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "committer": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "distinct": true,
+          "id": "9d1592e77e003b6031d230a5790b38b561e0442a",
+          "message": "ICU-22389 BRS73: Update version number to 73.2",
+          "timestamp": "2023-05-30T11:58:28+05:30",
+          "tree_id": "28764dbc64980c86c5b412c770edb81c931a9562",
+          "url": "https://github.com/jalaj-microsoft/icu/commit/9d1592e77e003b6031d230a5790b38b561e0442a"
+        },
+        "date": 1685433099299,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCtor",
+            "value": 21.2527,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCtor1",
+            "value": 23.5457,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCtor2",
+            "value": 28.3072,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCtor3",
+            "value": 38.9268,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestAssign",
+            "value": 46.4991,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestAssign1",
+            "value": 44.1045,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestAssign2",
+            "value": 26.1294,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestGetch",
+            "value": 17.4442,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestCatenate",
+            "value": 145.5967,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestScan",
+            "value": 28.641,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestScan1",
+            "value": 70.6325,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestScan2",
+            "value": 52.3251,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
