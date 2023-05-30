@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1685424548223,
+  "lastUpdate": 1685431887649,
   "repoUrl": "https://github.com/jalaj-microsoft/icu",
   "entries": {
     "Benchmark": [
@@ -2938,6 +2938,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICU_NFC_Orig_Text",
             "value": 6.279399518467524,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "committer": {
+            "email": "jharkawat@microsoft.com",
+            "name": "JALAJ HARKAWAT",
+            "username": "jalaj-microsoft"
+          },
+          "distinct": true,
+          "id": "9d1592e77e003b6031d230a5790b38b561e0442a",
+          "message": "ICU-22389 BRS73: Update version number to 73.2",
+          "timestamp": "2023-05-30T11:58:28+05:30",
+          "tree_id": "28764dbc64980c86c5b412c770edb81c931a9562",
+          "url": "https://github.com/jalaj-microsoft/icu/commit/9d1592e77e003b6031d230a5790b38b561e0442a"
+        },
+        "date": 1685431877662,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 5.904500505219712,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
